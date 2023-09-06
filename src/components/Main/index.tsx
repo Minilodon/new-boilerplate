@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Main() {
+function Main({ title = 'DM Helper' }: { title: string }) {
   return (
     <main>
-      <h1>DM Helper</h1>
+      <h1>{title}</h1>
     </main>
   )
 }
